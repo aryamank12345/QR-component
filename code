@@ -1,0 +1,76 @@
+************CSS FILE*************
+/* ## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+
+html {
+  font-size: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 1.5rem;
+  font-family: "Outfit", sans-serif;
+}
+
+.container {
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: hsl(0, 0%, 100%);
+  width: 30rem;
+  height: 45rem;
+  border-radius: 11px;
+
+  transform: translate(0, 50%);
+}
+
+.header {
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: hsl(218, 44%, 22%);
+  margin-top: 1.8rem;
+  text-align: center;
+}
+
+.text {
+  color: #666;
+  margin-top: 1.2rem;
+  text-align: center;
+}
+
+.img {
+  display: block;
+  margin-top: 1.2rem;
+  width: 27rem;
+  height: 27rem;
+  border-radius: 11px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+}
